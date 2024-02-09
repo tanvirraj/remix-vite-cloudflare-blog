@@ -1,36 +1,28 @@
-# Welcome to Remix + Vite!
+# Remix 🤝 MDX
 
-📖 See the [Remix docs](https://remix.run/docs) and the [Remix Vite docs](https://remix.run/docs/en/main/future/vite) for details on supported features.
+This template uses Vite to process MDX files in your Remix app.
 
-## Development
+👉 [Live Demo](https://remix-blog-mdx.fly.dev)
 
-Run the Vite dev server:
+<img width="1358" alt="Screenshot 2023-12-22 at 2 11 32 PM" src="https://github.com/pcattori/remix-blog-mdx/assets/1477317/fe385e39-9b59-40c7-8db2-274480316d3f">
+
+## Setup
+
+```shellscript
+npx create-remix@latest --template pcattori/remix-blog-mdx
+```
+
+## Run
+
+Spin up the Vite dev server:
 
 ```shellscript
 npm run dev
 ```
 
-## Deployment
+Or build your app for production and run it:
 
-First, build your app for production:
-
-```sh
+```shellscript
 npm run build
+npm run start
 ```
-
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-- `build/server`
-- `build/client`
